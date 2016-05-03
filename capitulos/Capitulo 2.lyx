@@ -1,0 +1,669 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass ociamthesis-lyx
+\options a4paper,titlepage
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 0
+\cite_engine natbib_numerical
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+A Natureza da Energia Escura
+\end_layout
+
+\begin_layout Section
+Oscilações acústicas de Baryon
+\end_layout
+
+\begin_layout Paragraph
+Um texto de examplo:
+\end_layout
+
+\begin_layout Standard
+Uma das questões mais importantes na cosmologia hoje é determinar as propriedade
+s da energia escura
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Abdalla:2007p3391"
+
+\end_inset
+
+.
+ Em distâncias cosmológicas, a energia escura atua como uma força repulsiva
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peebles:2003p3088"
+
+\end_inset
+
+ o que provoca uma aceleração da taxa de expansão do universo, uma observação
+ feita pela primeira vez usando distante supernovas do Tipo 1A 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Riess:1998p3211,Perlmutter:1990p3192"
+
+\end_inset
+
+.
+ Ao medir a taxa de expansão, podemos aprender sobre a natureza da energia
+ escura que por sua vez pode revelar uma compreensão mais profunda do modelo
+ padrão da cosmologia e da origem do universo.
+\end_layout
+
+\begin_layout Standard
+A taxa de expansão do universo pode ser determinada a partir de uma medição
+ do seu tamanho em diferentes épocas.
+ A 'régua padrão' cosmológica 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Blake:2003p3238"
+
+\end_inset
+
+ um objeto cujo tamanho relativo ao universo permanece fixo com a expansão
+ do universo.
+ Um tal régua padrão é a escala de comprimento típico presente em 'oscilações
+ acústicas de Baryon' (BAO) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Eisenstein:2005p3244"
+
+\end_inset
+
+.
+ Estas oscilações são os altos e baixos na distribuição de energia espacial
+ da matéria bariônica que correspondem a sobre e sub-densidades da matéria
+ em escalas de comprimento específicos.
+ A pressão resultante do excesso de densidades presentes no plasma primordial
+ após o período de inflação criado ondas acústicas esféricas que irradiam
+ para fora a partir destas over-densidades em cerca de metade da velocidade
+ da luz.
+\end_layout
+
+\begin_layout Standard
+Como o Universo expandiu e esfriou, os elétrons e prótons eventualmente
+ combinadas em átomos de hidrogênio neutro.
+ Neste ponto, designado por recombinação, o universo se tornou essencialmente
+ transparente a fotões, a remoção da pressão para fora de forma eficaz e
+ congelando a distribuição da matéria.
+ Ao longo do tempo, alguma da matéria escura no centro do original excesso
+ de densidade foi atraído para o local do horizonte som 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Eisenstein:2007p3253"
+
+\end_inset
+
+.
+ Uma vez que o BAO são impressas na estrutura em larga escala do universo
+ eles permanecem inalteradas em relação ao tamanho do universo.
+ O sinal BAO foi medido pela primeira vez no espectro de potência da radiação
+ cósmica de fundo (CMB) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hinshaw:2007p3293"
+
+\end_inset
+
+.
+ Se se pudesse medir o sinal BAO a uma época diferente isto constituiria
+ uma régua padrão, o que proporcionaria uma medida da taxa de expansão do
+ universo.
+\end_layout
+
+\begin_layout Section
+Tabela
+\end_layout
+
+\begin_layout Standard
+Aqui está um exemplo de tabela no texto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim$
+\end_inset
+
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tabela da verdade da Negação
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Algoritmo
+\end_layout
+
+\begin_layout Standard
+Aqui está como escrever um algoritmo usando o pacote 
+\emph on
+algorithm
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+nome
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithmic}[1]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+REQUIRE{condição}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENSURE{postcondition}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE $S 
+\backslash
+leftarrow 0$
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+IF{something}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE{do something}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ELSIF{something else}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE{do something else}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ELSE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE{do this}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDIF
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+FOR{$i=0$ to $10$}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE do that
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDFOR
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+FORALL{$i$ such that $this$}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE do that
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDFOR
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+WHILE{something holds}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE do this
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDWHILE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+REPEAT
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE something
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+UNTIL{this happens}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+LOOP
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE{$
+\backslash
+infty$ loop}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDLOOP
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE something 
+\backslash
+COMMENT{this is a comment}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+É necessário começar com 
+\family typewriter
+
+\backslash
+begin{algorithmic}
+\family default
+ e terminar com 
+\family typewriter
+
+\backslash
+end{algorithmic}
+\family default
+.
+ Se for usado 
+\family typewriter
+
+\backslash
+begin{algorithmic}[1]
+\family default
+ as linhas são numeradas.
+\end_layout
+
+\end_body
+\end_document

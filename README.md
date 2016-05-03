@@ -1,18 +1,24 @@
-# OCIAM Thesis for LyX - readme
+# Template OCIAM de Teses e Dissertações para LyX - readme
 
-These files form a LyX skeleton structure for the OCIAM Thesis class by Keith A. Gillow <gillow@maths.ox.ac.uk>, which is available online at http://www.maths.ox.ac.uk/help/faqs/latex/thesisclass. Here, I have modified the class file slightly and transposed it into a version that plays nicely with LyX.
+Esses arquivos foram traduzidos para portugues do Brazil do original disponível por Danny Price, e encontrado em: https://github.com/telegraphic/Oxford-LyX-Thesis-Template de forma a facilitar os estudantes Brasileiros que procuram um teplate decente do Lyx em portugues.
 
-I give no license to do anything with it, warranty or guarantee that it will work. Use at your own risk. Enjoy responsibly. Oxford's "visual identity" is legally protected, the logo is a trademark, and they have very specific branding rules, which can be found at http://www.ox.ac.uk/branding_toolkit/. That's all the issues I can think of, so onto installation...
+Eles formam uma estrutura esqueletoa para teses e dissertações em LyX, que são baseados na classe OCIAM criada por Keith A. Gillow <gillow@maths.ox.ac.uk>, que está disponível online em http://www.maths.ox.ac.uk/
+
+Assim como no original, nenhuma licença é atribuída a esses arquivos, bem como não existe nenhum certificado ou garantia do funcionamento dos códigos. Utilize por sua conta e risco. Aproveite com responsabilidade!
+
+Pretendo ainda vincular o estilo de bibliografia abntex2 do site
+https://github.com/abntex/abntex2/wiki/LyX
+
 
 ## Installation
 
-Firstly, you'll need to have a working copy of LaTeX and LyX. Next
+Antes de mais nada, você precisa ter o LaTeX e LyX funcionando! Então:
 
-1. Copy the ociamthesis-lyx.cls into your LaTex installation directory
-2. Refresh your TeX installation so it finds the new file
-3. Copy the ociamthesis-lyx.layout file into your LyX userdir layouts directory
-4. Open LyX and run the 'reconfigure' command.
-5. Restart LyX and you should be ready to go.
+1. Copie os ociamthesis-lyx.cls em seu diretório de instalação do LaTex
+2. Atualizar sua instalação TeX para que ele encontre o novo arquivo
+3. Copie o arquivo ociamthesis-lyx.layout para o seu diretório de usuários layouts do LyX
+4. Abra LyX e execute o comando 'reconfigure'.
+5. Reinicie LyX e você deve estar pronto para usar.
 
 The steps will vary depending on your operating system and LaTeX setup. For example, for me on my Mac:
 
@@ -67,17 +73,17 @@ Linux directions courtesy @NDavidBrown:
 
 Directions courtesy @NDavidBrown:
 
-1. Copy `ociamthesis-lyx.layout` to `C:\Users\<username>\AppData\Roaming\LyX<version>\layouts`.
+1. Copie o arquivo 'ociamthesis-lyx.layout' para 'C:\Users\<username>\AppData\Roaming\LyX<version>\layouts'.
 
-2. Copy `ociamthesis-lyx.cls` to `C:\Users\<username>\AppData\Roaming\MiKTeX\<version>\tex\latex`. 
-   You may need to create this directory manually, though the parent `tex` directory should already be present.
+2. Copie o arquivo 'ociamthesis-lyx.cls' para 'C:\Users\<username>\AppData\Roaming\MiKTeX\<version>\tex\latex'. 
+   Você deve criar esse diretório manualmente, contudo o diretório pai 'tex' já deve estar presente.
 
-Run `Start` -> `MikTex` -> `Settings` (or on Windows 8: `<Press Windows Key>`, Type 'settings', choose the non-admin 
-   `Settings` item with MikTex icon) then click `Refresh FNDB`.
+Execute 'Start' -> 'MikTex' -> 'Settings' (no Windows 8: '<Pressione a tecla Janela>', Digite 'configurações', escolha Não Administrador(?)
+   'Configurações' item with MikTex icon) then click `Refresh FNDB`.
 
 Now load Lyx and run: `Tools` -> `Reconfigure`. Once complete you'll receive a notification to restart Lyx. Do so then load your `thesis.lyx` and go to `Document` -> `Settings`. In `Document Class` (item in left sidebar list) In the `Document class` dropdown choose `ociamthesis-lyx` (items are in alphabetical order).
 
-## Frequently Asked Questions
+## Perguntas Frequentes
 
 #### Q. How do I know if I installed the document class correctly?
 The 'litmus test' is simply going to Document -> Settings -> Document Class and seeing that ociamthesis-lyx is available for selection.

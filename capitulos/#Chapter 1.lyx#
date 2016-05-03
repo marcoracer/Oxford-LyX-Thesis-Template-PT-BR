@@ -1,22 +1,30 @@
-#LyX 1.6.6 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass ociamthesis-lyx
 \options a4paper,titlepage
 \use_default_options false
+\maintain_unincluded_children false
 \language english
+\language_package default
 \inputencoding auto
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
@@ -24,55 +32,69 @@
 \use_geometry false
 \use_amsmath 1
 \use_esint 0
+\use_mhchem 1
+\use_mathdots 0
 \cite_engine natbib_authoryear
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
 
 \begin_layout Chapter
-Introduction
+Introdução
 \end_layout
 
 \begin_layout Section
-Introduction
+Introdução
 \end_layout
 
 \begin_layout Subsection
-Fourier Series
+Série de Fourier
 \end_layout
 
 \begin_layout Standard
-For a function 
+Para uma função 
 \begin_inset Formula $f(x)$
 \end_inset
 
- you can write the Fourier Series:
-\begin_inset Formula \[
-f(x)=\sum_{-\infty}^{\infty}c_{n}e^{inx},\]
+, a série de Fourier da mesma é dada por:
+\begin_inset Formula 
+\[
+f(x)=\sum_{-\infty}^{\infty}c_{n}e^{inx},
+\]
 
 \end_inset
 
-where the coefficients 
+onde os coeficientes 
 \begin_inset Formula $c_{n}$
 \end_inset
 
-are given by 
-\begin_inset Formula \[
-c_{n}=\frac{1}{2\pi}\int_{-\pi}^{\pi}f(x)e^{inx}dx\]
+são dados por 
+\begin_inset Formula 
+\[
+c_{n}=\frac{1}{2\pi}\int_{-\pi}^{\pi}f(x)e^{inx}dx.
+\]
 
 \end_inset
 
@@ -80,41 +102,44 @@ c_{n}=\frac{1}{2\pi}\int_{-\pi}^{\pi}f(x)e^{inx}dx\]
 \end_layout
 
 \begin_layout Subsection
-Maxwell's Equations
+Equações de Maxwell
 \end_layout
 
 \begin_layout Standard
-There are four of the buggers, and I like them in terms of total charge
- and current:
-\begin_inset Formula \[
+Há quatro tipos dessse malditos, particularmente prefiro o que descrito
+ em termos de carga total e corrente:
+\begin_inset Formula 
+\[
 \begin{array}{cc}
 \nabla.\mathbf{E}=\frac{\rho}{\varepsilon_{0}} & \nabla\times\mathbf{E}=-\frac{\partial\mathbf{B}}{\partial t}\\
-\nabla.\mathbf{B}=0 & \nabla\times\mathbf{B}=\mu_{o}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{\partial\mathbf{E}}{\partial t}\end{array}\]
+\nabla.\mathbf{B}=0 & \nabla\times\mathbf{B}=\mu_{o}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{\partial\mathbf{E}}{\partial t}
+\end{array}
+\]
 
 \end_inset
 
-Where 
+Onde 
 \series bold
 B 
 \series default
-is the magnetic field, 
+é o campo eletromagnético, 
 \series bold
 E 
 \series default
-is the electric field and 
+é o campo elétrico e
 \series bold
-J 
+ J 
 \series default
-is the total current density.
- Also, 
+é o total da densidade de corrente.
+ Igualmente, 
 \begin_inset Formula $\varepsilon_{0}$
 \end_inset
 
- is the permittivity of free space (electric constant) and 
+ é é a permissividade do espaço livre (constante elétrica) e 
 \begin_inset Formula $\mu_{0}$
 \end_inset
 
- is the permeability of free space (magnetic constant).
+ é a permeabilidade do espaço livre (constante magnética).
  
 \end_layout
 
@@ -129,8 +154,10 @@ Gauss' Law:
 \emph default
 Electric flux through any closed surface is proportional to the enclosed
  electric charge:
-\begin_inset Formula \[
-\Phi=\oint_{S}\mathbf{E}\, d\mathbf{A}=\frac{Q_{enc}}{\varepsilon_{0}}\]
+\begin_inset Formula 
+\[
+\Phi=\oint_{S}\mathbf{E}\, d\mathbf{A}=\frac{Q_{enc}}{\varepsilon_{0}}
+\]
 
 \end_inset
 
@@ -143,8 +170,10 @@ Electric flux through any closed surface is proportional to the enclosed
 Gauss' Magnetic Law: 
 \emph default
 Magnetic monopoles don't exist:
-\begin_inset Formula \[
-\oint_{S}\mathbf{B}\, d\mathbf{A}=0\]
+\begin_inset Formula 
+\[
+\oint_{S}\mathbf{B}\, d\mathbf{A}=0
+\]
 
 \end_inset
 
@@ -158,8 +187,10 @@ Faraday's Law of Induction:
 \emph default
  The induced electromotive force in any closed circuit is equal to the rate
  of change of the magnetic flux through the circuit:
-\begin_inset Formula \[
-\epsilon=-\frac{d\Phi_{B}}{dt}\]
+\begin_inset Formula 
+\[
+\epsilon=-\frac{d\Phi_{B}}{dt}
+\]
 
 \end_inset
 
@@ -172,8 +203,10 @@ Faraday's Law of Induction:
 Ampere's Law: 
 \emph default
 The relation between integrated magnetic field and current flowing:
-\begin_inset Formula \[
-\oint_{S}\mathbf{B}\, d\mathbf{\ell}=\mu_{0}I_{enc}\]
+\begin_inset Formula 
+\[
+\oint_{S}\mathbf{B}\, d\mathbf{\ell}=\mu_{0}I_{enc}
+\]
 
 \end_inset
 
@@ -186,7 +219,24 @@ That should be enough to get you started.
 \end_layout
 
 \begin_layout Section
-Thesis Overview
+Visão geral da Tese
+\end_layout
+
+\begin_layout Standard
+A estrutura geral da tese e da dissertaçao proposta por http://www.keimelion.com
+ é:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/neurolabuser/Documents/Marco/Oxford-LyX-Thesis PT/figures/estrutura da tese.jpg
+	lyxscale 25
+	width 50text%
+	clip
+
+\end_inset
+
+
 \end_layout
 
 \end_body

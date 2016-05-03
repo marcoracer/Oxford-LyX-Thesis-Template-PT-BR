@@ -1,0 +1,450 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass ociamthesis-lyx
+\options a4paper,titlepage
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 0
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Derivações
+\end_layout
+
+\begin_layout Section
+Derivação da lei de Plank
+\end_layout
+
+\begin_layout Paragraph
+Traduzido pelo google do texto contido no documento em ingês, que foi retirado
+ da wikipedia
+\end_layout
+
+\begin_layout Standard
+Considere um cubo de lado 
+\begin_inset Formula $L$
+\end_inset
+
+ com paredes condutoras cheios com radiação electromagnética.
+ If there is a small hole in one of the walls, the radiation emitted from
+ the hole will be characteristic of a perfect black body.
+ Se há um pequeno buraco numa das paredes, a radiação emitida a partir do
+ orifício será característica de um corpo negro perfeito.
+ Vamos primeiro calcular a densidade de energia espectral wihting a cavidade
+ e, então, determinar radiância espectral da radiação emitida.
+\end_layout
+
+\begin_layout Standard
+Nas paredes do cubo, o componente paralela do campo eléctrico e o componente
+ ortogonal ao campo magnético deve desaparecer.
+ Análogo à função de onda de uma partícula em uma caixa, descobre-se que
+ os campos são superposições de funções periódicas.
+ Os três comprimentos de onda 
+\begin_inset Formula $\lambda_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda_{2}$
+\end_inset
+
+ e 
+\begin_inset Formula $\lambda_{3}$
+\end_inset
+
+, nas três direcções ortogonais, para as paredes podem ser:
+\begin_inset Formula 
+\begin{equation}
+\lambda_{i}=\frac{2L}{n_{i}},
+\end{equation}
+
+\end_inset
+
+ onde os 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ são inteiros.
+ Para cada conjunto de inteiros 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ há duas soluções linearmente independentes (modos).
+ De acordo com a teoria quântica, os níveis de energia de um modo são dadas
+ pela:
+\begin_inset Formula 
+\begin{equation}
+E_{n_{1,},n_{2},n_{3}}(r)=(r+\frac{1}{2})\frac{hc}{2L}\sqrt{n_{1}^{2}+n_{2}^{2}+n_{3}^{2}}.\label{eq:quant_energy_levels}
+\end{equation}
+
+\end_inset
+
+O número quântico 
+\begin_inset Formula $r$
+\end_inset
+
+ pode ser interpretado como o número de fotões no modo.
+ Os dois modos para cada conjunto de 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ correspondem aos dois estados de polarização do fotão que tem uma rotação
+ de 1.
+ Note-se que para 
+\begin_inset Formula $r=0$
+\end_inset
+
+ a energia do modo não é zero.
+ Esta energia de vácuo do campo electromagnético é responsável pelo efeito
+ de Casimir (força diferente de zero entre duas placas paralelas próximas).
+ A seguir vamos calcular a energia interna da caixa à temperatura 
+\begin_inset Formula $T$
+\end_inset
+
+ relativo a energia no vácuo.
+\end_layout
+
+\begin_layout Standard
+De acordo com a mecânica estatística, a distribuição de probabilidade sobre
+ os níveis de energia de um modo particular, é dada pela:
+\begin_inset Formula 
+\begin{equation}
+P_{r}=\frac{exp(-\beta E(r))}{Z(\beta)}.
+\end{equation}
+
+\end_inset
+
+Aqui, nós definimos 
+\begin_inset Formula 
+\begin{equation}
+\beta\triangleq\frac{1}{kT}.
+\end{equation}
+
+\end_inset
+
+ O denominador 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula $Z(\beta)$
+\end_inset
+
+, é a função de partição de um único modo e faz de 
+\begin_inset Formula $P_{r}$
+\end_inset
+
+ devidamente normalizada:
+\begin_inset Formula 
+\begin{eqnarray}
+Z(\beta) & = & \sum_{r=0}^{\infty}exp[-\beta E(r)]\\
+ & = & \frac{1}{1-exp[-\beta\varepsilon]}.
+\end{eqnarray}
+
+\end_inset
+
+Aqui temos definido implicitamente 
+\begin_inset Formula 
+\begin{equation}
+\varepsilon\triangleq\frac{hc}{2L}\sqrt{n_{1}^{2}+n_{2}^{2}+n_{3}^{2}},
+\end{equation}
+
+\end_inset
+
+que é a energia de um único fotão.
+ O valor termodinâmica da energia total é a média do conjunto para a energia,
+ que é a soma das energias microstate ponderados pelas suas probabilidades.
+ Isto pode ser expresso em termos da função de partição;
+\begin_inset Formula 
+\begin{eqnarray}
+\left\langle E\right\rangle  & = & -\frac{d\, log(Z)}{d\beta}\\
+ & = & \frac{\varepsilon}{exp(\beta\varepsilon)-1}.
+\end{eqnarray}
+
+\end_inset
+
+Esta fórmula é um caso especial da fórmula geral para as partículas que
+ obedecem as estatísticas de Bose-Einstein, como fótons (que são bósons).
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+A energia total na caixa agora segue pela soma 
+\begin_inset Formula $ $
+\end_inset
+
+
+\begin_inset Formula $\left\langle E\right\rangle $
+\end_inset
+
+ sobre todos os estados único fóton permitidos.
+ Isto pode ser feito exactamente no limite termodinâmico quanto 
+\begin_inset Formula $L$
+\end_inset
+
+ aproxima de 
+\begin_inset Formula $\infty$
+\end_inset
+
+.
+ Neste limite, 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ torna-se contínua e podemos então integrar 
+\begin_inset Formula $\left\langle E\right\rangle $
+\end_inset
+
+ sobre esses parâmetros.
+ Para calcular a energia na caixa desta forma, precisamos avaliar quantos
+ estados de fótons, existem em uma determinada faixa de energia.
+ Se escrever o número total de estados de fótons com energias entre 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ e 
+\begin_inset Formula $\varepsilon+d\varepsilon$
+\end_inset
+
+ como 
+\begin_inset Formula $g(\varepsilon)d\varepsilon,$
+\end_inset
+
+ onde 
+\begin_inset Formula $g(\varepsilon)$
+\end_inset
+
+ é a densidade de estados que vamos avaliar, em um momento, então podemos
+ escrever:
+\begin_inset Formula 
+\begin{equation}
+U=\int_{0}^{\infty}\frac{\varepsilon}{exp(\beta\varepsilon)-1}g(\varepsilon)d\varepsilon.\label{eq:quant_total_energy}
+\end{equation}
+
+\end_inset
+
+Para calcular a densidade de estados que reescrever a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:quant_energy_levels"
+
+\end_inset
+
+ do seguinte modo: 
+\begin_inset Formula 
+\begin{equation}
+\varepsilon\triangleq\frac{hc}{2L}n,
+\end{equation}
+
+\end_inset
+
+onde 
+\begin_inset Formula $n$
+\end_inset
+
+ epresenta a norma do vector 
+\begin_inset Formula $\vec{n}=(n_{1},n_{2},n_{3})$
+\end_inset
+
+, que é 
+\begin_inset Formula $n=\sqrt{n_{1}^{2}+n_{2}^{2}+n_{3}^{2}}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Para cada vector 
+\begin_inset Formula $n$
+\end_inset
+
+ com componentes inteiros maiores ou iguais a zero há dois estados de fótons.
+ Isto significa que o número de estados de fotões de uma determinada região
+ de n-espaço é duas vezes o volume daquela região.
+ Uma faixa de energia de 
+\begin_inset Formula $d\varepsilon$
+\end_inset
+
+ corresponde a uma cobertura de espessura 
+\begin_inset Formula $dn=(2L/hc)d\varepsilon$
+\end_inset
+
+ em n-espaço.
+ Uma vez que os componentes de 
+\begin_inset Formula $\vec{n}$
+\end_inset
+
+ tem que ser positivo, esta concha se estende por um octante de uma esfera.
+ O número de estados de fótons 
+\begin_inset Formula $g(\varepsilon)d\varepsilon$
+\end_inset
+
+ em uma faixa de energia 
+\begin_inset Formula $d\varepsilon$
+\end_inset
+
+ é dada por:
+\begin_inset Formula 
+\begin{eqnarray}
+g(\varepsilon)d\varepsilon & = & 2\frac{1}{8}4\pi n^{2}dn\\
+ & = & \frac{8\pi L^{3}}{h^{3}c^{3}}\varepsilon^{2}d\varepsilon.
+\end{eqnarray}
+
+\end_inset
+
+Inserindo isso na equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:quant_total_energy"
+
+\end_inset
+
+ se obtêm:
+\begin_inset Formula 
+\begin{equation}
+U=L^{3}\frac{8\pi}{h^{3}c^{3}}\int_{0}^{\infty}\frac{\varepsilon^{3}}{exp(\beta\varepsilon)-1}d\varepsilon.
+\end{equation}
+
+\end_inset
+
+A partir desta equação resulta uma facilmente a densidade espectral de energia
+ como uma função do comprimento de onda 
+\begin_inset Formula $u(\nu,T)$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{equation}
+\frac{U}{L^{3}}=\int_{0}^{\infty}u(\nu,T)d\nu,
+\end{equation}
+
+\end_inset
+
+ onde 
+\begin_inset Formula 
+\begin{equation}
+u(\nu,T)=\frac{8\pi h\nu^{3}}{c^{3}}\frac{1}{e^{h\nu/kT}-1}.
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula $u(\nu,T)$
+\end_inset
+
+ é conhecido como o espectro de corpo negro.
+ É uma função densidade de energia espectral com unidades de energia por
+ unidade de comprimento de onda por unidade de volume.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Uma vez que a radiação é a mesma em todas as direcções, e propaga à velocidade
+ da luz, o brilho espectral que sai do pequeno orifício é 
+\begin_inset Formula 
+\begin{eqnarray}
+I(\nu,T) & = & \frac{u(\nu,T)c}{4\pi}\\
+ & = & \frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}.
+\end{eqnarray}
+
+\end_inset
+
+Note-se que a análise dimensional mostra que a unidade de esferorradiano,
+ mostrado no denominador do lado esquerdo da equação acima, é gerada e realizada
+ através da derivação mas não aparece em qualquer das dimensões por todo
+ o elemento do lado esquerdo a equação.
+\end_layout
+
+\begin_layout Section
+Sensibilidade
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

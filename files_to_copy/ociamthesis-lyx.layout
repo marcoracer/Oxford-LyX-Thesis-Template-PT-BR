@@ -33,7 +33,7 @@ Style Acknowledgements
 	ParSep                0
 	Align                 Block
 	LabelType             Centered_Top_Environment
-	LabelString           "Acknowledgements"
+	LabelString           "Agradecimentos"
 	LabelBottomSep    0.5
 	Font
 	  Size                Small

@@ -1,5 +1,5 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass ociamthesis-lyx
@@ -7,10 +7,21 @@
 % ociamthesis-lyx v2.1
 % By Keith A. Gillow <gillow@maths.ox.ac.uk>
 % modified for LyX by Danny Price <danny.price@astro.ox.ac.uk>
+% translated by Marco Borges
 
 % Use graphics package
 \usepackage{graphicx}
 \usepackage{setspace}
+%\usepackage[portuguese]{babel}
+
+\newenvironment{poliabstract}[1]
+  {\renewcommand{\abstractname}{#1}\begin{abstract}}
+  {\end{abstract}}
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\floatname{algorithm}{Algoritmo}
+\renewcommand{\listalgorithmname}{Lista de Algoritmos}
 
 % The crest on the titlepage can be set by changing the def below.
 % You can get others from http://www.ox.ac.uk/branding_toolkit/
@@ -18,30 +29,30 @@
 %\def\crest{{\includegraphics{titlepage/beltcrest-gold.pdf}}}
 
 % Set the text on the title page here
-\title{A Treatise on Quick Brown Foxes, Jumping, and Lazy Dogs}
+\title{Um tratado sobre as ligeiras Raposas marrons, Sobressaltos e Cachorros preguiçosos}
 \author{Bilbo Baggins}
-\college{Worcester College}
-\university{University of Oxford}
-%\renewcommand{\submittedtext}{change the default text here if needed}
-\degree{Doctor of Philosophy}
-\degreedate{Trinity 2011}
+\college{Escola de Ensino}
+\university{Universidade de Oxford}
+\renewcommand{\submittedtext}{Tese submetida com vista \'a obten\c{c}\~ao do grau de}
+\degree{Doutor em Filosofia}
+\degreedate{Trinity 2016}
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
-\language english
+\language brazilian
 \language_package default
 \inputencoding auto
 \fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
-\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
+
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -49,27 +60,27 @@
 \index_command default
 \paperfontsize 12
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry false
-\use_package amsmath 2
-\use_package amssymb 2
-\use_package cancel 1
-\use_package esint 0
-\use_package mathdots 1
-\use_package mathtools 1
-\use_package mhchem 1
-\use_package stackrel 1
-\use_package stmaryrd 1
-\use_package undertilde 1
-\cite_engine natbib
-\cite_engine_type numerical
-\biblio_style plainnat
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_numerical
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -134,7 +145,7 @@ maketitle
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "dedication/Dedication.lyx"
+filename "dedicatoria/Dedicatoria.lyx"
 
 \end_inset
 
@@ -144,7 +155,7 @@ filename "dedication/Dedication.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "acknowledgments/Acknowledgments.lyx"
+filename "agradecimentos/Agradecimentos.lyx"
 
 \end_inset
 
@@ -154,11 +165,24 @@ filename "acknowledgments/Acknowledgments.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "abstract/Abstract.lyx"
+filename "resumo/Resumo.lyx"
 
 \end_inset
 
-  
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "resumo/Abstract.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -183,6 +207,25 @@ LatexCommand tableofcontents
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList algorithm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -191,6 +234,13 @@ status open
 
 \backslash
 end{romanpages}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
 \end_layout
 
 \begin_layout Plain Layout
@@ -206,7 +256,7 @@ end{romanpages}
 
 
 \backslash
-setstretch{1.6}
+setstretch{2.0}
 \end_layout
 
 \end_inset
@@ -217,14 +267,14 @@ setstretch{1.6}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "chapters/Chapter 1.lyx"
+filename "capitulos/Capitulo 1.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "chapters/Chapter 2.lyx"
+filename "capitulos/Capitulo 2.lyx"
 
 \end_inset
 
@@ -233,13 +283,13 @@ filename "chapters/Chapter 2.lyx"
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\bibname}{References}
+\newcommand{\bibname}{Bibliografia}
 \end_inset
 
 
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "references/bao"
+bibfiles "referencias/bao"
 options "styles/bibtex/gillow"
 
 \end_inset
@@ -251,11 +301,25 @@ options "styles/bibtex/gillow"
 \start_of_appendix
 \begin_inset CommandInset include
 LatexCommand include
-filename "appendices/Appendix 1.lyx"
+filename "anexos/Apendice 1.lyx"
 
 \end_inset
 
- 
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "anexos/Apendice 2.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
